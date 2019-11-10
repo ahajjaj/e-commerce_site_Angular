@@ -1,0 +1,17 @@
+<div class="row justify-content-center">
+  <div class="card-body" >
+      <div *ngFor="let produit of produits" class="card" [ngStyle]="{ 'background-image': 'url(' +  produit.imageUrl + ')'}">
+          <div class="card-text">
+              <h4>Produit Details</h4>
+              <h6>{{ produit.nom}}</h6>
+           <!-- <h6>{{ produit.marque}}</h6> -->       
+
+              <!-- <img src= "{{ produit.imageUrl }}" width="250px;"height="300px;" /> -->
+
+              <h4>{{ produit.prix | currency }}</h4>
+              
+              <ul *ngIf="(user|async)"><button class="styled" (click)="addToCart(produit)"> Acheter! </button></ul>
+          </div>
+      </div>
+  </div>
+</div>

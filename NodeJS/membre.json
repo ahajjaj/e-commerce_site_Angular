@@ -1,0 +1,5 @@
+[
+	{"nom": "Tom", "prenom": "Solina", "email": "solinatom@yahoo.fr", "password": "1234"},
+    {"nom": "Ouail", "prenom": "Amin", "email": "ouailamin@yahoo.fr", "password": "5678"},
+    {"nom": "Hadjaj", "prenom": "Ahmed", "email": "hajjajahmed@yahoo.fr", "password": "0123"}
+]

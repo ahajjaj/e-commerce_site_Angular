@@ -1,0 +1,64 @@
+.card-body {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.card {
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    width: 270px;
+    height: 219px;
+    margin: 3px;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 1px 3px #333333;
+    cursor: pointer;
+}
+  
+.card-text {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+button{
+     position:relative; left: 128px; bottom: 41px; top: -40px;
+    }
+
+img {
+    position:relative;
+    left:-6px;
+}

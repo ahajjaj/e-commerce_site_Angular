@@ -1,0 +1,16 @@
+<form (ngSubmit)="onSubmit()" #inscriptionForm="ngForm">
+    <label> nom </label>
+    <input type="text" class="form-control" required [(ngModel)]="utilisateur['nom']" name="nom" />
+    <label> prenom </label>
+    <input type="text" class="form-control" required [(ngModel)]="utilisateur['prenom']" name="prenom" />
+  <label> Email </label>
+  <input type="text" class="form-control" required [(ngModel)]="utilisateur['email']" name="email" />
+
+  <label> Mot de passe </label>
+  <input type="password" class="form-control" required
+  [(ngModel)]="utilisateur['password']" name="password" />
+
+  <input href="http://localhost:4200/membres/register" type="submit" value="S'enregistrer" />
+</form>
+<br><br>
+<p> {{ message }} </p>

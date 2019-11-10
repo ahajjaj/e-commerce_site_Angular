@@ -1,0 +1,26 @@
+ul {
+    list-style-type: circle;
+    border: 2px solid blue;
+    background-color: lightblue;
+  }
+  li {
+    margin: 5px;
+    background-color: lightyellow;
+  }
+
+.form-style-6{
+  font: 95% Arial, Helvetica, sans-serif;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 16px;
+  background: #F7F7F7;
+}
+.form-style-6 h3{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}

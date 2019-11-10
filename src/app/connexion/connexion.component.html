@@ -1,0 +1,22 @@
+<form (ngSubmit)="onSubmit()" #inscriptionForm="ngForm">
+  <label> Email </label>
+  <input type="text" class="form-control" required [(ngModel)]="utilisateur['email']" name="email" />
+
+  <label> Mot de passe </label>
+  <input type="password" class="form-control" required [(ngModel)]="utilisateur['password']" name="password" />
+
+  <button class="btn btn-info btn-block my-4" type="submit">Se connecter</button>
+</form>
+
+
+<div class="d-flex justify-content-around">
+  <div>
+
+      <!-- Register -->
+      <p>Pas membere?
+          <a routerLink="/membres/register"> S'inscrire </a>
+      </p>
+  
+     
+<p> {{ message }} </p>
+

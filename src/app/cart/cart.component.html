@@ -1,0 +1,13 @@
+<div class="form-style-6">
+    <h3>Mon panier:</h3>
+<div class="cart-item" *ngFor="let item of items">
+  <ul>
+    <li><span>{{ item.nom }}</span></li>
+    <li><span>{{ item.prix }}</span></li>
+  </ul>
+</div>
+
+<h6>Total à payer:  {{total}}  </h6>
+
+<a routerLink="/cart" > <button (click)= "clearCart()" > Vider le panier!</button> </a>
+</div>

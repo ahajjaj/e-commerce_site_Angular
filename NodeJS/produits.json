@@ -1,0 +1,14 @@
+[
+	{"nom":"Astérix", "type":"Livres et Audible", "marque":" Livre", "prix":"10", "imageUrl": "https://www.babelio.com/users/liste_A-propos-dAsterix_1469.jpeg"},
+	{"nom":"Télémaque ", "type":"Livres et Audible", "marque":" Livre", "prix":"10", "imageUrl": "https://bdi.dlpdomain.com/album/9782800173597-couv-M800x1600.jpg"},
+	{"nom":"Mythics", "type":"Livres et Audible", "marque":" Livre", "prix":"11", "imageUrl": "https://kbimages1-a.akamaihd.net/c119b610-8e22-415e-a413-731846442f84/1200/1200/False/les-mythics-t05-1.jpg"},
+	{"nom":"MacBook", "type":"Informatique", "marque":"Apple", "prix":"500", "imageUrl":"https://media.ldlc.com/r1600/ld/products/00/04/41/46/LD0004414687_2.jpg"},
+	{"nom":"Samsung Galaxy", "type":"Informatique", "marque":"Samsung", "prix":"200", "imageUrl": "https://csmobiles.com/11161-large_default/samsung-galaxy-a70-128go-4g-dual-sim-noir.jpg"},
+	{"nom":"Imprimante", "type":"Informatique", "marque":"Hp", "prix":"50", "imageUrl": "https://store.hp.com/FranceStore/Html/Merch/Images/c05664394_1750x1285.jpg"},
+	{"nom":"Perceuse", "type":"Bricolage", "marque":"Makita", "prix":"35", "imageUrl":"https://cdn.manomano.com/perceuse-visseuse-makita-18v-li-ion-40ah-2-batteries-chargeur-en-coffret-ddf482rmj-P-5307819-14709070_1.jpg"},
+	{"nom":"Peinture", "type":"Bricolage", "marque":"Inventiv", "prix":"37", "imageUrl": "https://static.cotemaison.fr/medias_9594/w_1500,h_652,c_crop,x_0,y_358/w_640,h_360,c_fill,g_north/v1401799822/bricolage-2_4912345.jpg"},
+	{"nom":"Tondeuse moteur", "type":"Bricolage", "marque":"Alpina", "prix":"500", "imageUrl": "https://www.racetools.fr/9942-large_default/tondeuse-thermique-tractee-4-temps-moteur-honda-160-cc-garland-grass1065zsh-v16.jpg"},
+	{"nom":"café cappuccino", "type":"Café", "marque":"lavazza", "prix":"60", "imageUrl": "https://www.pietercil.com/sites/default/files/styles/intro_block_image/public/2019-01/Picture1%20lavazza%20def_2.png?itok=8TOu7Fm7"},
+	{"nom":"café américain", "type":"Café", "marque":"bibal", "prix":"5", "imageUrl": "https://www.cafes-bibal.fr/wp-content/uploads/2018/07/cafe-boissons-gourmandes.png"},
+	{"nom":"café espresso", "type":"Café", "marque":"Carte Noire", "prix":"20", "imageUrl": "https://images-eu.ssl-images-amazon.com/images/G/08/products/hpc/detailA/kraft/visu-tasse.jpg"}
+]
